@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Layout design</title>
+    <meta name="Umaiorubagan" title= "Shopping layout">
     <link rel="stylesheet" href="style.css" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
@@ -14,7 +14,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- font style -->
+    <!-- Google Font Style -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,285 +22,282 @@
       rel="stylesheet"
     />
   </head>
-  <div>
-    <header>
-      <section class="top_design" id="top_design">
-        <h4>
-          Sign Up and <b> GET 20% </b> OFF for your first order.
-          <a href="#sign_up"> sign up now </a>
-        </h4>
+  <body>
+    <div>
+      <header>
+        <section class="top_design" id="top_design">
+          <h4>
+            Sign Up and <b> GET 20% </b> OFF for your first order.
+            <a href="#sign_up"> sign up now </a>
+          </h4>
+        </section>
+      </header>
+
+      <main class="main" id="main">
+        <img src="./bag.png" alt="bag" id="bag" />
+        <h1 class="title" id="title">FIMERCE</h1>
+
+        <nav id="navbar" class="navbar">
+          <a href="#shop">
+            Shop <i class="fa-solid fa-caret-down"></i>
+            <!--<select name="select" id="select_tag"></select
+        >--></a
+          >
+
+          <a href="#Most wanted"> Most wanted </a>
+          <a href="#New Arrival "> New Arrival </a>
+          <a href="#Brands"> Brands </a>
+        </nav>
+
+        <button type="button" class="button_style">
+          <i class="fa-solid fa-magnifying-glass"></i> Search
+        </button>
+
+        <i class="fa-solid fa-cart-shopping" id="icon"></i>
+        <i class="fas fa-user-alt" id="icon"></i>
+      </main>
+
+      <!-- slide design -->
+      <section class="slide" id="slide">
+        <div class="heading" id="heading">
+          <h2>
+            Level up your style with our <br />
+            summer collection
+          </h2>
+
+          <button type="button" class="shopping_button" id="shopping_button">
+            Shop Now <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+
+          <p class="dotted" id="dotted">. . . . .</p>
+        </div>
       </section>
-    </header>
 
-    <main class="main" id="main">
-      <img src="./bag.png" alt="bag" id="bag" />
-      <h1 class="title" id="title">FIMERCE</h1>
-
-      <nav id="navbar" class="navbar">
-        <a href="#shop">
-          Shop <i class="fa-solid fa-caret-down"></i>
-          <!--<select name="select" id="select_tag"></select
-        >--></a>
-
-        <a href="#Most wanted"> Most wanted </a>
-        <a href="#New Arrival "> New Arrival </a>
-        <a href="#Brands"> Brands </a>
-      </nav>
-
-      <button type="button" class="button_style">
-        <i class="fa-solid fa-magnifying-glass"></i> Search
-      </button>
-
-      <i class="fa-solid fa-cart-shopping" id="icon"></i>
-      <i class="fas fa-user-alt" id="icon"></i>
-    </main>
-
-    <section class="slide" id="slide">
-      <div class="heading" id="heading">
-        <h2>
-          Level up your style with our <br />
-          summer collection
-        </h2>
-
-        <button type="button" class="shopping_button" id="shopping_button">
-          Shop Now <i class="fa-solid fa-cart-shopping"></i>
-        </button>
-
-        <p class="dotted" id="dotted">. . . . .</p>
+      <!-- Brands design-->
+      <div class="brands" id="brands">
+        <h1 class="brand_title" id="brand_title">Brands</h1>
+        <div class="brand_images" id="brand_images">
+          <img src="./images/1.png" alt="" />
+          <img src="./images/8.png" alt="" />
+          <img src="./images/3.png" alt="" />
+          <img src="./images/4.png" alt="" />
+          <img src="./images/5.png" alt="" />
+          <img src="./images/6.png" alt="" />
+          <img src="./images/7.png" alt="" />
+        </div>
       </div>
-    </section>
 
-    <div class="brands" id="brands">
-      <h1 class="brand_title" id="brand_title">Brands</h1>
-      <div class="brand_images" id="brand_images">
-        <img src="./images/1.png" alt="" />
-        <img src="./images/8.png" alt="" />
-        <img src="./images/3.png" alt="" />
-        <img src="./images/4.png" alt="" />
-        <img src="./images/5.png" alt="" />
-        <img src="./images/6.png" alt="" />
-        <img src="./images/7.png" alt="" />
+      <div class="content" id="content">
+        <div class="content_main" id="content_main">
+          <h1>
+            We Provide best <br />
+            customer experiences
+          </h1>
+
+          <hr id="line" />
+          <!-- Hr tag line -->
+
+          <p class="para" id="para">
+            We ensure our customers have the best shopping experiences
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="content" id="content">
-      <div class="content_main" id="content_main">
+      <!-- Container -->
+      <div class="container" id="container">
+        <div class="item" id="item">
+          <i class="fa-solid fa-tag" id="product_icons"></i>
+          <h4 id="text">Orignal product</h4>
+          <p id="paragraph">
+            We provide money back guarantee if the product are not original
+          </p>
+        </div>
+
+        <div class="item" id="item">
+          <i class="fa-solid fa-face-smile" id="product_icons"></i>
+          <h4 id="text">Satisfaction Guarantee</h4>
+          <p id="paragraph">
+            Exchange the product you've purchased if it doesn't fit on you
+          </p>
+        </div>
+
+        <div class="item" id="item">
+          <i class="fa-solid fa-truck" id="product_icons"></i>
+          <h4 id="text">New Arrival Everyday</h4>
+          <p id="paragraph">We updates our collections almost Everyday</p>
+        </div>
+
+        <div class="item" id="item">
+          <i class="fa-solid fa-truck-fast" id="product_icons"></i>
+          <h4 id="text">Fast and Free Shipping</h4>
+          <p id="paragraph">
+            We offer fast and free shopping for our loyal customers
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="h1_text">Currated picks</h1>
+      </div>
+
+      <div class="card" id="card">
+        <div id="card_items">
+          <img src="./model/model 1.jpg" alt="" />
+        </div>
+
+        <div id="card_items">
+          <img src="./model/model5.jpg" alt="" />
+        </div>
+
+        <div id="card_items">
+          <img src="./model/model 3.jpg" alt="" />
+        </div>
+
+        <div id="card_items">
+          <img src="./model/model6.jpg" alt="" />
+        </div>
+      </div>
+
+      <div>
+        <h1 class="h1_text">Featured Products</h1>
+      </div>
+
+      <div class="card_1" id="card_1">
+        <div id="card_items_1">
+          <button type="submit" id="sale">Sale</button>
+          <img src="./dress/item 1.jpg" alt="" />
+          <p class="card_p">
+            Black dress <br />
+            <span> $ 50 </span>
+          </p>
+          <i class="fa-solid fa-cart-shopping" id="card_i"></i>
+        </div>
+
+        <div id="card_items_1">
+          <img src="./dress/item 2.jpg" alt="" />
+          <p>
+            fancy shirt <br />
+            <span> $ 60 </span>
+          </p>
+          <i class="fa-solid fa-cart-shopping" id="icon_1"></i>
+        </div>
+
+        <div id="card_items_1">
+          <button type="submit" id="sale">Sale</button>
+          <img src="./dress/item 3.jpg" alt="" />
+          <p class="card_p">
+            Blue coat <br />
+            <span> $ 85 </span>
+          </p>
+          <i class="fa-solid fa-cart-shopping" id="card_i"></i>
+        </div>
+      </div>
+
+      <hr id="straight_line" />
+      <!-- Hr tag line -->
+
+      <div class="container_2" id="container_2">
+        <div class="img_item" id="img_item">
+          <img src="./model/model 7.jpg" alt="" />
+        </div>
+
+        <div class="text_item" id="text_item">
+          <h5>LIMITED OFFER</h5>
+
+          <h3>35% off only this friday <br />and get special gift</h3>
+
+          <button type="button">
+            <a href="#grab it now" id="grab"
+              >Grab it now <i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </button>
+        </div>
+      </div>
+
+      <div class="subscribe" id="subscribe">
         <h1>
-          We Provide best <br />
-          customer experiences
+          Subscribe to our newsletter to get updates <br />
+          to our latest collection
         </h1>
 
-        <hr id="line">
-
-        <p class="para" id="para">
-          We ensure our customers have the best shopping experiences
-        </p>
-      </div>
-    </div>
-
-    <div class="container" id="container">
-      <div class="item" id="item">
-        <i class="fa-solid fa-tag" id="product_icons"></i>
-        <h4 id="text">Orignal product</h4>
-        <p id="paragraph">
-          We provide money back guarantee if the product are not original
-        </p>
-      </div>
-
-      <div class="item" id="item">
-        <i class="fa-solid fa-face-smile" id="product_icons"></i>
-        <h4 id="text">Satisfaction Guarantee</h4>
-        <p id="paragraph">
-          Exchange the product you've purchased if it doesn't fit on you
-        </p>
-      </div>
-
-      <div class="item" id="item">
-        <i class="fa-solid fa-truck" id="product_icons"></i>
-        <h4 id="text">New Arrival Everyday</h4>
-        <p id="paragraph">We updates our collections almost Everyday</p>
-      </div>
-
-      <div class="item" id="item">
-        <i class="fa-solid fa-truck-fast" id="product_icons"></i>
-        <h4 id="text">Fast and Free Shipping</h4>
-        <p id="paragraph">
-          We offer fast and free shopping for our loyal customers
-        </p>
-      </div>
-    </div>
-
-    <div>
-      <h1 class="h1_text">Currated picks</h1>
-    </div>
-
-    <div class="card" id="card">
-      <div id="card_items">
-        <img src="./model/model 1.jpg" alt="" />
-      </div>
-
-      <div id="card_items">
-        <img src="./model/model5.jpg" alt="" />
-      </div>
-
-      <div id="card_items">
-        <img src="./model/model 3.jpg" alt="" />
-      </div>
-
-      <div id="card_items">
-        <img src="./model/model6.jpg" alt="" />
-      </div>
-    </div>
-
-    <div>
-      <h1 class="h1_text">Featured Products</h1>
-    </div>
-
-    <div class="card_1" id="card_1">
-      <div id="card_items_1">
-        <button type="submit" id="sale">
-          Sale
-        </button>
-        <img src="./dress/item 1.jpg" alt="" />
-        <p class="card_p">
-          Black dress <br/>
-         <span> $ 50 </span> 
-        </p>
-        <i class="fa-solid fa-cart-shopping"  id="card_i"></i>
-      </div>
-
-      <div id="card_items_1">
-        <img src="./dress/item 2.jpg" alt="" />
         <p>
-          fancy shirt <br>
-          <span> $ 60 </span> 
+          Get 20% off on yopu first order just by subscribing to out newsletter
         </p>
-        <i class="fa-solid fa-cart-shopping" id="icon_1"></i>
-      </div>
 
-      <div id="card_items_1">
-        <button type="submit" id="sale">
-          Sale
-        </button>
-        <img src="./dress/item 3.jpg" alt="" />
-        <p class="card_p">
-          Blue coat <br/>
-          <span> $ 85 </span> 
+        <form action="">
+          <label for="email">
+            <input type="email" placeholder="Enter your email" /><button
+              type="submit"
+              id="button_2"
+            >
+              Subscribe
+            </button></label
+          >
+        </form>
+
+        <p>
+          You will able to unsubscribe at any time.<br />
+          Read our Privacy Police <a href="#here" id="Here"> Here </a>
         </p>
-        <i class="fa-solid fa-cart-shopping" id="card_i"></i>
-      </div>
-    </div>
-
-    <hr id="straight_line">
-
-    <div class="container_2" id="container_2">
-      <div class="img_item" id="img_item">
-        <img src="./model/model 7.jpg" alt="">
       </div>
 
-      <div class="text_item" id="text_item">
-        <h5>
-          LIMITED OFFER
-        </h5>
-
-        <h3>
-          35% off only this friday <br>and get special gift
-        </h3>
-
-        <button type="button"> <a href="#grab it now" id="grab">Grab it now <i class="fa-solid fa-cart-shopping"></i></a> </button>
-      </div>
-    </div>
-
-
-    <div class="subscribe" id="subscribe">
-      <h1>
-        Subscribe to our newsletter to get updates <br>
-        to our latest collection
-      </h1>
-
-      <p>
-        Get 20% off on yopu first order just by subscribing to out newsletter
-      </p>
-
-      <form action="">
-        <label for="email"> <input type="email" placeholder="Enter your email"><button type="submit" id="button_2">
-          Subscribe
-        </button></label>
-      </form>
-
-      <p>
-        You will able to unsubscribe at any time.<br>
-        Read our Privacy Police <a href="#here" id="Here"> Here </a>
-      </p>
-    </div>
-
-
-
-    <footer class="footer" id="footer">
-      <div class="footer_title" id="footer_title">
-        
-        <h1><img src="./bag.png" alt="bag" id="bag_1">
-          FIMERCE
-        </h1>
-        <P>
-          Specilaizes in providing high-quality, stylist <br>
-          produces for your wardrobe
-        </P>
-      </div>
-
-      <div class="card_2" id="card_2">
-        <div class="section_1" id="section_1">
-          <h3> Shop </h3>
-          <ul>
-            <li> All Collections </li>
-            <li> Winter Edition </li>
-            <li> Discount </li>
-          </ul>
+      <footer class="footer" id="footer">
+        <div class="footer_title" id="footer_title">
+          <h1>
+            <img src="./bag.png" alt="bag" id="bag_1" />
+            FIMERCE
+          </h1>
+          <p>
+            Specilaizes in providing high-quality, stylist <br />
+            produces for your wardrobe
+          </p>
         </div>
 
+        <div class="card_2" id="card_2">
+          <div class="section_1" id="section_1">
+            <h3>Shop</h3>
+            <ul>
+              <li>All Collections</li>
+              <li>Winter Edition</li>
+              <li>Discount</li>
+            </ul>
+          </div>
 
-        <div class="section_2" id="section_2">
-          <h3> Most Wanted </h3>
-          <ul>
-            <li> About Us </li>
-            <li> Contact </li>
-            <li> Affiliates </li>
-          </ul>
-        </div>
+          <div class="section_2" id="section_2">
+            <h3>Most Wanted</h3>
+            <ul>
+              <li>About Us</li>
+              <li>Contact</li>
+              <li>Affiliates</li>
+            </ul>
+          </div>
 
-        <div class="section_2" id="section_2">
-          <h3> Support </h3>
-          <ul>
-            <li> FAQs </li>
-            <li> Cookie Policy </li>
-            <li> Term Of Us </li>
-          </ul>
-        </div>
+          <div class="section_2" id="section_2">
+            <h3>Support</h3>
+            <ul>
+              <li>FAQs</li>
+              <li>Cookie Policy</li>
+              <li>Term Of Us</li>
+            </ul>
+          </div>
 
-        <div class="payment" id="payment">
-          <h3>
-            PAYMENT METHODS
-          </h3>
-          <div class="picture" id="picture">
-           <img src="./payment img/visa.png" alt="">
-           <img src="./payment img/google-pay.png" alt="">
-           <img src="./payment img/paytm.png" alt="">
+          <div class="payment" id="payment">
+            <h3>PAYMENT METHODS</h3>
+            <div class="picture" id="picture">
+              <img src="./payment img/visa.png" alt="" />
+              <img src="./payment img/google-pay.png" alt="" />
+              <img src="./payment img/paytm.png" alt="" />
+            </div>
           </div>
         </div>
+      </footer>
 
-        
-      </div>
-
-    
-
-    </footer>
-    
-    <hr id="last-hr">
-    <div id="last">
-      <div class="copywrite" id="copywrite">
-        copywrite &copy; 2024 FIMANCE. ALL right reserve
+      <hr id="last-hr" />
+      <div id="last">
+        <div class="copywrite" id="copywrite">
+          Copywrite &copy; 2024 FIMANCE. ALL right reserve
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
